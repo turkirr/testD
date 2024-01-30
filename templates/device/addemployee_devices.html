@@ -1,0 +1,49 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+
+<div>
+    <form>
+        <div class="form-group">
+          <label for="exampleInputEmail1">Device</label>
+          <input type="text" name="device_id" placeholder="Select Device"><br>
+        </div>
+        <div class="form-group">
+            <label for="exampleInputEmail1">Employee</label>
+            <input type="text" name="employee_id" placeholder="Find Employee"><br>
+        </div>
+
+        <div class="form-group">
+            <label for="exampleInputEmail1">Request Number</label>
+            <input type="text" name="request_number" placeholder="Request Number"><br>
+        </div>
+
+        <div class="form-group">
+            <label for="exampleInputEmail1">Receipt Number</label>
+            <input type="text" name="receipt_number" placeholder="Receipt Number"><br>
+        </div>
+        
+        <div class="form-group">
+            <label for="exampleInputEmail1">Receiving Status</label>
+            <input type="text" name="receiving_status" placeholder="Receiving Status"><br>
+        </div>
+
+        <div class="form-group">
+            <label for="exampleInputEmail1">Return Status</label>
+            <input type="text" name="return_status" placeholder="Return Status"><br>
+        </div>
+
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+
+</div>
+
+
+{% endblock content  %}
+
+
